@@ -1,0 +1,10 @@
+:host {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow-y: auto;
+  max-width: 375px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}

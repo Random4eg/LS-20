@@ -1,0 +1,35 @@
+   
+p{padding: 8px 10px;}
+.side 
+
+.strong{} 
+.weak{} 
+.rotate{
+    display: flex;
+    gap: 5px;}
+.desc {
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #595085;
+}
+
+.strong__desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #479696;
+    background: #f5f9f9;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.weak__desc {
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ff7e73;
+    background: #fff4f4;
+    border-radius: 8px;
+}

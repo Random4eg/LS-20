@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;    
+}
+.item {padding: 28px 30px;}
+.title { 
+    font-family:  "Roboto", sans-serif;;
+font-weight: 500;
+font-size: 16px;
+color: #595085;
+}
+
+.spec { font-family:  "Roboto", sans-serif;;
+    font-weight: 400;
+    font-size: 14px;
+    color: #595085;
+    opacity: 0.6;
+}
+.profile {font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #595085;}

@@ -1,0 +1,41 @@
+.first-card {
+    color: #403572;
+    background: #f6f5fb;    
+    border-radius: 15px;
+    margin-bottom: 10px;  
+    padding: 23px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+
+.desc {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+ }
+.second-card {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #ff5648;
+    background: #fff4f4;  
+    border-radius: 15px;
+    margin-bottom: 40px;  
+    padding: 23px 20px;
+   
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.item{padding: 5px;}
