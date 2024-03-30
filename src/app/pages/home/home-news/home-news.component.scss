@@ -1,27 +1,26 @@
 p {
     font-weight: 300;
-font-size: 24px;
+font-size: 24rem;
 color: #595085;
-padding-bottom: 15px;
+padding-bottom: 15rem;
 }
 .list {display: flex; 
     justify-content: space-between;
-    gap: 10px;
+    gap: 10rem;
 
 }
 .title { 
 cursor: pointer;
-box-shadow: 0 15px 25px 0 rgba(115, 78, 133, 0.15);
+box-shadow: 0 15rem 25rem 0 rgba(115, 78, 133, 0.15);
 background: linear-gradient(90deg, #25196b 0%, #d994a7 100%);
-border-radius: 15px;
+border-radius: 15rem;
 font-weight: 500;
-font-size: 12px;
+font-size: 12rem;
 color: #fff;
-padding: 21px 25px; 
+padding: 21rem 25rem; 
 transition: 0.3s all ease-in-out;
 }
-.title:hover {
-    transition: 0.3s all ease-in-out;
-    box-shadow: 0 15px 25px 0 rgba(90, 116, 142, 0.15);
+.title:nth-child(even) {
+box-shadow: 0 15rem 25rem 0 rgba(90, 116, 142, 0.15);
 background: linear-gradient(90deg, #25196b 0%, #94d9b4 100%);
 }

@@ -1,9 +1,13 @@
 a {
-   color: #8B97A8;
-   padding-left: 40px;
+  text-decoration: none;
+    color: #8B97A8;   
    transition: 0.3s all ease-in-out;  
 }
 a:hover {
   color: #3D3270;
   transition: 0.3s all ease-in-out;
+}
+.link{ 
+  display: flex;
+  justify-content: space-between;
 }

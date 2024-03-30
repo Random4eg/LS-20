@@ -9,6 +9,6 @@ import { GlobalService } from '../../global.service';
 })
 export class ProfileComponent {
   constructor(global: GlobalService) {
-    global.pageTitle = 'Profile'
+    global.pageTitle  = 'Profile'
   }
 }

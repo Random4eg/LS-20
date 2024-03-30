@@ -1,45 +1,54 @@
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 24rem;
     color: #595085;
 }
-.container{margin-bottom: 45px;}
+.container{margin-bottom: 45rem;}
 .item {
-    display: flex;
-    justify-content: space-between;    
-    gap: 11px;   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 11rem;   
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 10rem;
     
     
-    h2{
+    .number{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
-        font-size: 24px;
-    
+        font-size: 24rem;
+        margin-top: 18rem;
+        margin-bottom: 0;
+          
     }   
 }
-.meditation { 
-    background: #f6f5fb;
-    color: #61598b; 
-    padding: 12px;
-    border-radius: 15px;width: 98px;
-
-}
-.sleep {  
-    background: #fff4f4;
-    color: #ff3726;
-    padding: 12px;
-    border-radius: 15px;width: 98px;
+.quest{
+    padding: 12rem;
+    border-radius: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
-.mantra {  
+.quest:nth-child(1) { 
+     background: #f6f5fb;
+    color: #61598b; 
+
+    
+
+}
+.quest:nth-child(2) {  
+    background: #fff4f4;
+    color: #ff3726;
+    
+  
+    
+}
+.quest:nth-child(3) {  
     background: #f5f9f9;
     color: #479696; 
-    padding: 12px;
-    border-radius: 15px;width: 98px;
+    
     
 }
 
@@ -47,21 +56,21 @@ p {
 .progress {
     background: #fdf9fb;
      justify-content: flex-start;
-     border-radius: 15px;
+     border-radius: 15rem;
      align-items: center;
      position: relative;
-     padding: 2px;
+     padding: 2rem;
      display: flex;
-     height: 8px;
+     height: 8rem;
      
     
     }
    
    .progress-value {
      animation: load 3s normal forwards;
-     border-radius: 15px;
+     border-radius: 15rem;
     background: #c93f8d;
-     height: 8px;
+     height: 8rem;
      width: 0;
    }
    

@@ -1,18 +1,29 @@
-.first-card {
+.card:nth-child(1) {
     color: #403572;
     background: #f6f5fb;    
-    border-radius: 15px;
-    margin-bottom: 10px;  
-    padding: 23px 20px;
+    border-radius: 15rem;
+    margin-bottom: 10rem;  
+    padding: 23rem 20rem;
     display: flex;
     justify-content: space-between;
+}
+.card:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #ff5648;
+    background: #fff4f4;  
+    border-radius: 15rem;
+    margin-bottom: 40rem;  
+    padding: 23rem 20rem;
+   
 }
 .title {
     
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    padding-bottom: 10px;
+    font-size: 16rem;
+    padding-bottom: 10rem;
     
 }
 
@@ -20,22 +31,12 @@
     
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12rem;
     opacity: 0.6;
  }
-.second-card {
-    display: flex;
-    justify-content: space-between;
-    
-    color: #ff5648;
-    background: #fff4f4;  
-    border-radius: 15px;
-    margin-bottom: 40px;  
-    padding: 23px 20px;
-   
-}
+
 a {
     text-decoration: none;
     color: currentColor;
 }
-.item{padding: 5px;}
+.item{padding: 5rem;}

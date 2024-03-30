@@ -1,35 +1,35 @@
    
-p{padding: 8px 10px;}
+p{padding: 8rem 10rem;}
 .side 
 
 .strong{} 
 .weak{} 
 .rotate{
     display: flex;
-    gap: 5px;}
+    gap: 5rem;}
 .desc {
    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 14rem;
     color: #595085;
 }
 
 .strong__desc {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 12rem;
     color: #479696;
     background: #f5f9f9;
-    border-radius: 8px;
-    margin-bottom: 30px;
+    border-radius: 8rem;
+    margin-bottom: 30rem;
 }
 
 .weak__desc {
     font-family:"Roboto", sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 12rem;
     color: #ff7e73;
     background: #fff4f4;
-    border-radius: 8px;
+    border-radius: 8rem;
 }

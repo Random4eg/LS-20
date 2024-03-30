@@ -1,25 +1,28 @@
 .container {
     display: flex;
     justify-content: left;
-    margin-bottom: 30px;    
+    margin-bottom: 30rem;    
 }
-.item {padding: 28px 30px;}
+.item {padding: 28rem 30rem;}
 .title { 
     font-family:  "Roboto", sans-serif;;
 font-weight: 500;
-font-size: 16px;
+font-size: 16rem;
 color: #595085;
 }
 
 .spec { font-family:  "Roboto", sans-serif;;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14rem;
     color: #595085;
     opacity: 0.6;
+    margin-bottom: 11rem;
+    margin-top: 4rem;
 }
-.profile {font-family: "Roboto", sans-serif;
+.profile {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12rem;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #595085;}
